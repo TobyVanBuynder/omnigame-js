@@ -1,0 +1,29 @@
+{
+  "name": "omnigame",
+  "version": "1.0.0",
+  "description": "Assignment for OmniGame",
+  "main": "app.js",
+  "scripts": {
+    "build": "browserify logic.js -o game.js",
+    "watch": "watchify logic.js -o game.js",
+    "minify": "uglifyjs game.js --compress -o game.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TobyVanBuynder/omnigame-js.git"
+  },
+  "author": "Toby Van Buynder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TobyVanBuynder/omnigame-js/issues"
+  },
+  "homepage": "https://github.com/TobyVanBuynder/omnigame-js#readme",
+  "devDependencies": {
+    "browserify": "^16.5.2",
+    "chance": "^1.1.7",
+    "pixi.js": "5.3.3",
+    "uglify-js": "github:mishoo/UglifyJS2#harmony",
+    "watchify": "^3.11.1"
+  },
+  "dependencies": {}
+}

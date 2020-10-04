@@ -1,0 +1,22 @@
+{
+    "screenWidth": 1280,
+    "screenHeight": 720,
+    "assetPath": "./assets/assets.json",
+    "symbols": [
+        { "id": "silver",  "chance": 100, "win": 10,   "bigWin": 100   },
+        { "id": "gold",    "chance":  85, "win": 20,   "bigWin": 200   },
+        { "id": "orange",  "chance":  75, "win": 50,   "bigWin": 500   },
+        { "id": "green",   "chance":  60, "win": 100,  "bigWin": 1000  },
+        { "id": "blue",    "chance":  40, "win": 200,  "bigWin": 2000  },
+        { "id": "violet",  "chance":  25, "win": 500,  "bigWin": 5000  },
+        { "id": "red",     "chance":  15, "win": 1000, "bigWin": 10000 },
+        { "id": "rainbow", "chance":   1, "win": 2000, "bigWin": 20000 }
+    ],
+    "breakableSize": 128,
+    "numBreakables": 3,
+    "breakCost": 10,
+    "symbolTimer": 1500,
+    "user": {
+        "id": 1, "name": "PLAYER", "credits": 1000
+    }
+}
